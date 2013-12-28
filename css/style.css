@@ -1,0 +1,115 @@
+
+body, html {
+  background: black;
+  margin: 0;
+}
+
+#page {
+  margin-left: 115px;
+  margin-top: 50px;
+  position: relative;
+}
+
+img#background {
+  width: 1200px;
+}
+
+div.container {
+  border: 2px solid gray;
+  height: 400px;
+  position: absolute;
+  left: 291px;
+  top: 197px;
+  width: 613px;
+}
+
+#question {
+  background-color: #097dc6;
+  background: linear-gradient(#314a9e, #5b8cd1);
+  border: 2px solid lightgray;
+  height: 137px;
+  margin: 10px;
+  padding: 2px;
+  position: relative;
+  text-align: center;
+  width: 584px;
+}
+#qlogo {
+  height: 115px;
+  margin-top: 10px;
+  -webkit-transform: rotateX(0deg);
+}
+#question p {
+  color: white;
+  font-family: Arial;
+  font-size: 24pt;
+  height: 113px;
+  left: 0px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  overflow-y: hidden;
+  position: absolute;
+  -webkit-transform: rotateX(90deg);
+  top: 0px;
+  width: 100%;
+}
+
+.answer {
+  background-color: #097dc6;
+  background: linear-gradient(#75c7ff, #193cbc);
+  border: 2px solid lightgray;
+  color: white;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 24pt;
+  height: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 12px 2px 2px 2px;
+  position: relative;
+  text-align: center;
+  width: 281px;
+}
+.answer-text {
+  background-color: black;
+  display: inline-block;
+  font-size: 18pt;
+  height: 100%;
+  left: 0px;
+  line-height: 60px;
+  overflow-x: hidden;
+  position: absolute;
+  text-align: left;
+  text-indent: 10px;
+  top: 0px;
+  width: 80%;
+  -webkit-transform: rotateX(90deg);
+}
+.ans-value {
+  background-color: black;
+  display: inline-block;
+  height: 100%;
+  line-height: 60px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 20%;
+  -webkit-transform: rotateX(90deg);
+}
+
+
+.answer:hover, #question:hover {
+  border-color: white;
+}
+
+#x {
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+#x img {
+  display: none;
+  margin-left: 398px;
+  margin-top: 250px;
+  width: 400px;
+}
